@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 微軟正黑體;
+    box-sizing: border-box;
+    color:#4195f4;
+    border: 1px solid rgba(0,0,0,0);
+    border-image: initial;
+    border-style: solid;
+}
+
+html.body {
+    height: 100%;
+}
+
+body {
+    background-image: url(bg.jpg);
+    background-size: cover;
+}
+
+.main {
+    width:80%;
+    margin: 0 auto;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+.nav ul {
+    float: right;
+}
+
+.nav ul li {
+    border: 1px solid white;
+    margin-top: 30px;
+    display: inline-block;
+    margin-left: 30px;
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+
+.nav ul li a:hover {
+    background-color: rgba(35, 206, 140, 0.658);;
+}
+
+.nav #logo {
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 1px solid white;
+    font-size: 30px;
+}
+
+.nav #logo  a:hover {
+    background-color: rgba(35, 206, 140, 0.658);;
+}
+
+/* 內容區塊 */
+.contain h1 {
+    margin-top: 100px;
+}
+
+.contain p {
+    width:300px;
+    margin-top: 80px;
+}
+
+.contain a {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 50px;
+    text-decoration: none;
+    border: 1px solid white;
+    background-color: rgba(35, 206, 140, 0.658);
+}
+
+.contain a:hover {
+    background-color: transparent;
+}
+
+.contain hr {
+    width: 300px;
+    height: 5px;
+    background-color: white;
+    margin-top: 30px;
+}
+
+/* 按鈕 */
+.button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.button a {
+    display: inline-block;
+    width: 150px;
+    background-color: rgba(35, 206, 140, 0.658);
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.button a:hover {
+    background-color: transparent;
+}
+
+.button a img {
+    width: 100%;
+}
+
+.footer {
+    text-align: center;
+    background-color: rgba(35, 206, 140, 0.658);
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    position: fixed;
+    bottom: 0;
+}
