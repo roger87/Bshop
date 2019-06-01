@@ -153,4 +153,7 @@ body {
 .bakery2 {
     background-image: url(Crispybread.jpg);
     }
-    
+
+img[alt="www.000webhost.com"]{
+    display: none;
+}
